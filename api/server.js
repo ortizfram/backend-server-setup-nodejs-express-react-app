@@ -6,7 +6,7 @@ const router = require("./routes/router")
 const app = express()
 
 app.use(bodyParser.json())
-app.use(bodyParser.urlecoded({extended: false}))
+app.use(bodyParser.urlencoded({ extended: false })); // Fix typo here
 
 const corsOptions = {
     origin: "*",
